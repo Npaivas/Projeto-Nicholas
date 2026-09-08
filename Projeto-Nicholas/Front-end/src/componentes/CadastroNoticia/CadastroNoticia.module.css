@@ -66,11 +66,6 @@
     box-sizing: border-box;
 }
 
-.campo textarea:focus {
-    outline: none;
-    border-color: #1a1a1a;
-}
-
 .botao {
     margin-top: auto;
     padding: 12px 20px;
@@ -81,13 +76,7 @@
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
     cursor: pointer;
-    transition: opacity 0.2s ease;
-}
-
-.botao:hover {
-    opacity: 0.9;
 }
 
 .mensagem {

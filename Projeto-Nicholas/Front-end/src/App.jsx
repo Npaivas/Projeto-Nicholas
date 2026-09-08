@@ -1,5 +1,6 @@
-import CadastroNoticia from "./components/CadastroNoticia/CadastroNoticia";
+import CadastroNoticia from "./componentes/CadastroNoticia/CadastroNoticia";
 import styles from "./App.module.css";
+import ListaNoticias from "./componentes/ListarNoticia/ListaNoticias";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
 
       <div className={styles.colunas}>
         <CadastroNoticia />
+
+        <ListaNoticias/>
+
       </div>
     </div>
   );

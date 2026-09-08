@@ -45,7 +45,6 @@ function CadastroNoticia() {
           Título
           <input
             type="text"
-            placeholder="Título da notícia"
             value={titulo}
             onChange={(e) => setTitulo(e.target.value)}
           />
@@ -56,7 +55,6 @@ function CadastroNoticia() {
         <label className={styles.campo}>
           Conteúdo
           <textarea
-            placeholder="Escreva o conteúdo aqui..."
             rows={4}
             value={conteudo}
             onChange={(e) => setConteudo(e.target.value)}
@@ -70,7 +68,6 @@ function CadastroNoticia() {
             Autor
             <input
               type="text"
-              placeholder="Nome do autor"
               value={autor}
               onChange={(e) => setAutor(e.target.value)}
             />
@@ -80,7 +77,6 @@ function CadastroNoticia() {
             Categoria
             <input
               type="text"
-              placeholder="Ex: Tecnologia"
               value={categoria}
               onChange={(e) => setCategoria(e.target.value)}
             />
